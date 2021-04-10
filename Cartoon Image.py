@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-read_img=cv2.imread("C:/Users/Upaneeta/Documents/Python Projects/OpenCV Projects/Resourses/baby_Pic1.jpg")
+read_img=cv2.imread("baby_Pic1.jpg")
 img=cv2.resize(read_img,(450,450))
 
 gray_img=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)

@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Reading the image
-read_img=cv2.imread("C:/Users/Upaneeta/Documents/Python Projects/OpenCV Projects/Resourses/baby_Pic1.jpg")
+read_img=cv2.imread("baby_Pic1.jpg")
 #print(img.shape)
 img=cv2.resize(read_img,(300,300))
 # Converting the image to grayscale
